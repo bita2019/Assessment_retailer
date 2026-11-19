@@ -1,0 +1,8 @@
+step,rows_before,rows_after,note
+exact_duplicates,2727,2590,Removed identical rows
+fill_product_id,2590,2590,Filled 99 missing values from page_url
+fill_product_name,2590,2590,Filled 52 missing values from page_url
+missing_date,2590,2590,Dropped rows with no scrape date
+parse_timestamp,2534,2534,Converted 46 Unix epoch timestamps
+one_row_per_day,2590,2534,Kept first scrape per product per day
+fill_reference_price_gaps,2534,2534,Filled 132 short gaps inside promotions
